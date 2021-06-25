@@ -17,11 +17,11 @@ function setup(){
 
     cat = createSprite (870,600,500,500);
     cat.addImage ("gatoSentado",catImg1);
-    cat.scale = 0.25
+    cat.scale = 0.08
 
     mouse = createSprite (500,600,500,500);
     mouse.addImage ("gatoSentado",mouseImg1);
-    mouse.scale = 0.25
+    mouse.scale = 0.08
 
     //bg = createSprite (500,400,1000,800);
    // bg.addImage ("fondo",bgImg);
@@ -39,13 +39,13 @@ function draw() {
         cat.addImage ("catLastImg", catImg3);
         cat.changeImage ("catLastImg", catImg3);
         cat.x = 500;
-        cat.scale = 0.25
+        cat.scale = 0.08
 
         mouse.velocityX = 0;
         mouse.addImage ("mouseLastImg", mouseImg3);
         mouse.changeImage ("mouseLastImg", mouseImg3);
         mouse.x = 300;
-        mouse.scale = 0.25
+        mouse.scale = 0.08
     }
     
     drawSprites();
